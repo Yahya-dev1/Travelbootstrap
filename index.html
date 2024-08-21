@@ -4,17 +4,423 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.1/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KEaExTKAxlkm+5o+3mV4f0D1l1oa9zzB9T0xVd/tqWkwzxPsK6E/Bp4Gz95KbTAA"
-      crossorigin="anonymous" />
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet" />
+    <link
+      href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+      rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
     <title>Travel The World</title>
   </head>
   <body>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.1/js/bootstrap.bundle.min.js"
-      integrity="sha384-n/xR2B1vC9FSzPcLUzH5j9RyKXEm5MK3dXeFJhcgoY4RWihhvV0qwhk5RKNu2vvu"
-      crossorigin="anonymous"></script>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg d-lg-flex flex-row justify-content-lg-between">
+        <div class="container-fluid">
+          <h1><a class="navbarlogo" href="#">Yahya Travels</a></h1>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse .d-lg-flex justify-content-end m-lg-4"
+            id="navbarNavAltMarkup">
+            <div class="navbar-nav d-lg-flex justify-content-end gap-lg-3">
+              <a class="nav-links" href="#">Home</a>
+              <a class="nav-links" href="#">Destinations</a>
+              <a class="nav-links" href="#">Pricing</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-12 col-sm-12 col-lg-6">
+          <img
+            src="Imgs/world.png"
+            class="d-block mx-lg-auto img-fluid"
+            alt="Bootstrap Themes"
+            width="700"
+            height="800"
+            loading="lazy" />
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold lh-1 mb-3">
+            Travel the world and <span class="text">discover</span> amazing
+            destinations
+          </h1>
+          <p class="lead">
+            Embark on a journey of a lifetime with Yahya Travel, where every
+            adventure is tailored to your dreams. From the bustling streets of
+            iconic cities to the tranquil beauty of hidden gems, we take you
+            beyond the ordinary. Explore new cultures, savor exquisite cuisines,
+            and create unforgettable memories. Let us handle the details while
+            you focus on experiencing the world like never before. Your next
+            great adventure starts here—where will you go next?
+          </p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button
+              type="button"
+              class="btn btn-primary btn-lg px-4 me-md-2 booknow">
+              Book Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="destination">
+      <h2 class="text-center mt-4">
+        Here are some of The destinations we offer
+      </h2>
+      <div
+        class="container-fluid column-gap-lg-3 column-gap-md-2 col-xxl-8 px-4 py-5">
+        <div class="row gx-5 gx-lg-5 justify-content-around">
+          <div
+            class="card col-12 col-md-6 col-lg-4 griditems"
+            style="width: 20rem">
+            <img
+              class="card-img-top pt-3"
+              src="Imgs/kenya.jpeg"
+              alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Magical Kenya</h5>
+              <p class="card-text">
+                Embark on a safari in the Masai Mara National Reserve, explore
+                the rich culture of Nairobi, Kenya’s capital.
+              </p>
+              <a href="#" class="btn btn-primary">Learn more</a>
+            </div>
+          </div>
+          <div
+            class="card col-12 col-md-6 col-lg-4 griditems"
+            style="width: 20rem">
+            <img
+              class="card-img-top pt-3"
+              src="Imgs/egypt.jpeg"
+              alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Egypt</h5>
+              <p class="card-text">
+                The Pyramids of Egypt, especially the Great Pyramid of Giza, are
+                ancient wonders built over 4,500 years ago as tombs for
+                pharaohs.
+              </p>
+              <a href="#" class="btn btn-primary">Learn more</a>
+            </div>
+          </div>
+          <div
+            class="card col-12 col-md-6 col-lg-4 griditems"
+            style="width: 20rem">
+            <img
+              class="card-img-top pt-3"
+              src="Imgs/southafrida.jpg"
+              alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">South Africa</h5>
+              <p class="card-text">
+                Spectacular mountain landscape with panoramic city and ocean
+                views, featuring multiple hiking trails and a unique cable car
+                experience with a rotating floor.
+              </p>
+              <a href="#" class="btn btn-primary">Learn more</a>
+            </div>
+          </div>
+          <div
+            class="card col-12 col-md-6 col-lg-4 griditems"
+            style="width: 20rem">
+            <img
+              class="card-img-top pt-3"
+              src="Imgs/japan.jpeg"
+              alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Japan</h5>
+              <p class="card-text">
+                The island nation — popular among tourists for its dining,
+                cleanliness and mix of futuristic and traditional experiences —
+                currently feels more like a low-cost travel haven.
+              </p>
+              <a href="#" class="btn btn-primary">Learn more</a>
+            </div>
+          </div>
+          <div
+            class="card col-12 col-md-6 col-lg-4 griditems"
+            style="width: 20rem">
+            <img
+              class="card-img-top pt-3"
+              src="Imgs/greece.jpeg"
+              alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Greece</h5>
+              <p class="card-text">
+                As you explore the Acropolis, you'll also encounter other major
+                ancient attractions such as the Ancient Agora, the Roman Forum,
+                Kerameikos, and the Temple of Olympian Zeus,
+              </p>
+              <a href="#" class="btn btn-primary">Learn more</a>
+            </div>
+          </div>
+          <div
+            class="card col-12 col-md-6 col-lg-4 griditems"
+            style="width: 20rem">
+            <img
+              class="card-img-top pt-3"
+              src="Imgs/italy.jpeg"
+              alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Italy</h5>
+              <p class="card-text">
+                taly attracts millions of travelers every year thanks to its
+                fascinating culture, natural landscapes, artistic sites, and
+                renowned cuisine.
+              </p>
+              <a href="#" class="btn btn-primary">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="packages container col-xxl-8 px-4 py-5">
+      <h3 class="text-center">Here are some of the Packages we offer.</h3>
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseOne"
+              aria-expanded="true"
+              aria-controls="panelsStayOpen-collapseOne">
+              1. Relaxation Retreat
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseOne"
+            class="accordion-collapse collapse show">
+            <div class="accordion-body">
+              <strong>Duration: 7 Days, 6 Nights.</strong> • Unwind at a luxury
+              beach resort with stunning ocean views • Enjoy daily spa
+              treatments and wellness activities • Participate in yoga and
+              meditation sessions • Explore local coastal towns and markets •
+              Savor gourmet meals and beachfront dining Inclusions:
+              Accommodation, all meals, spa treatments, wellness activities, and
+              airport transfers Ideal For: Couples, solo travelers, and anyone
+              looking to relax and rejuvenate
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseTwo"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseTwo">
+              2. Cultural & Culinary Journey
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseTwo"
+            class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <strong>Duration: 7 Days, 6 Nights.</strong> • Visit historical
+              sites and cultural landmarks in a vibrant city • Participate in
+              cooking classes with local chefs • Explore local markets and taste
+              traditional dishes • Enjoy wine tastings and farm-to-table dining
+              experiences • Engage in cultural workshops and artisan crafts
+              Inclusions: Accommodation, all meals, guided tours, cooking
+              classes, and airport transfers Ideal For: Foodies, culture lovers,
+              and travelers interested in local traditions
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseThree"
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseThree">
+              3. Adventure & Wellness Escape
+            </button>
+          </h2>
+          <div
+            id="panelsStayOpen-collapseThree"
+            class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <strong>Duration: 7 Days, 6 Nights.</strong> • Combine outdoor
+              adventure with wellness experiences • Hike through scenic trails
+              and explore natural landscapes • Enjoy daily yoga and meditation
+              in nature • Relax with spa treatments and wellness therapies •
+              Experience local culture through guided tours and interactions
+              Inclusions: Accommodation, all meals, adventure activities,
+              wellness sessions, and airport transfers Ideal For: Adventure
+              seekers, wellness enthusiasts, and those looking for an active yet
+              relaxing getaway
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container col-xxl-8 px-4 py-5">
+      <form>
+        <div class="row mb-3">
+          <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+            <input
+              type="email"
+              class="form-control"
+              id="inputEmail3"
+              placeholder="example@gmail.com" />
+          </div>
+        </div>
+        <div class="row mb-3">
+          <label for="name" class="col-sm-2 col-form-label">Name</label>
+          <div class="col-sm-10">
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              placeholder="John Doe" />
+          </div>
+        </div>
+        <div class="row mb-3">
+          <label for="inputDestiantion" class="col-sm-2 col-form-label"
+            >Destination</label
+          >
+          <div class="col-sm-10">
+            <input
+              type="text"
+              class="form-control"
+              id="inputDestiantion"
+              placeholder="Input Destination" />
+          </div>
+        </div>
+        <fieldset class="row mb-3">
+          <legend class="col-form-label col-sm-2 pt-0">Packages</legend>
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="gridRadios"
+                id="gridRadios1"
+                value="option1"
+                checked />
+              <label class="form-check-label" for="gridRadios1">
+                Relaxation Retreat
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="gridRadios"
+                id="gridRadios2"
+                value="option2" />
+              <label class="form-check-label" for="gridRadios2">
+                Cultural & Culinary Journey
+              </label>
+            </div>
+            <div class="form-check disabled">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="gridRadios"
+                id="gridRadios3"
+                value="option3" />
+              <label class="form-check-label" for="gridRadios3">
+                Adventure & wellness Escape
+              </label>
+            </div>
+          </div>
+        </fieldset>
+        <div class="row mb-3">
+          <div class="col-sm-10 offset-sm-2"></div>
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </section>
+    <section class="container col-lg-12 col-xxl-8 footer-expand-lg py-5 foot">
+      <div class="container">
+        <footer>
+          <div class="row">
+            <div class="col-6 col-md-6 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">Home</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">Features</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-muted">Pricing</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-4 offset-md-1 mb-3">
+              <form>
+                <h5>Subscribe to our newsletter</h5>
+                <p>Monthly digest of what's new and exciting from us.</p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden"
+                    >Email address</label
+                  >
+                  <input
+                    id="newsletter1"
+                    type="text"
+                    class="form-control"
+                    placeholder="Email address" />
+                  <button class="btn btn-primary" type="button">
+                    Subscribe
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div
+            class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>© 2024 Yahya Travels, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3">
+                <a class="link-dark" href="#"
+                  ><svg class="bi" width="24" height="24">
+                    <use xlink:href="#twitter"></use></svg
+                ></a>
+              </li>
+              <li class="ms-3">
+                <a class="link-dark" href="#"
+                  ><svg class="bi" width="24" height="24">
+                    <use xlink:href="#instagram"></use></svg
+                ></a>
+              </li>
+              <li class="ms-3">
+                <a class="link-dark" href="#"
+                  ><svg class="bi" width="24" height="24">
+                    <use xlink:href="#facebook"></use></svg
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

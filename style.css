@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Fira Sans", sans-serif;
+}
+nav{
+    background-color: #970747;
+    
+}
+nav .navbarlogo{
+    color: white;
+    text-decoration: none;
+
+}
+.navlinks{
+   
+}
+.navbar-nav{
+    width: 50vw;
+    color: white;
+    text-decoration: none;
+
+}
+.navbar-nav a{
+    text-decoration: none;
+    color: white;
+}
+h1 .text{
+    color: #970747;
+}
+.booknow{
+    background-color: #970747;
+    border: none;
+}
+.griditems{
+    margin: 10px 0px;
+    height: 500px;
+}
+.griditems .btn{
+    background-color: #970747;
+    border: none;
+}
+.griditems img{
+    object-fit: cover;
+    width: 100%;
+}
+form .btn{
+    background-color: #970747;
+    border: none;
+    color: white;
+}
+.foot{
+    background-color: #970747;
+    color: white;
+}
+footer ul li{
+    color: white;
+}
